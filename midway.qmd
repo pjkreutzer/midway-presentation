@@ -1,0 +1,454 @@
+---
+title: Sweden’s Transition to a Forest-Based Bioeconomy
+format: pjk_theme-revealjs
+author: Philipp Jonas Kreutzer
+date: last-modified
+bibliography: papers.bib
+csl: 'https://zotero.org/styles/apa?source=1'
+---
+
+## Background {.center}
+
+
+>... how radical changes can occur in the way societal functions are fulfilled. [@kohler2019AgendaSustainabilityTransitions 2]
+
+
+Socio-technical systems [@geels2004SectoralSystemsInnovation;@geels2007TypologySociotechnicalTransition],
+innovation systems [@hekkert2007FunctionsInnovationSystems;@bergek2015TechnologicalInnovationSystems]
+
+## [Forest-Based Bioeconomy]{.text-white} {background-image="/assets/images/forwarder.jpeg" .center}
+
+## Data From SWINNO Database
+
+::: {.columns}
+::: {.column}
+~ 5000 significant Swedish innovation
+
+LBIO method 
+
+from 15 independent trade journals [@sjoo2014DatabaseSwedishInnovations]
+
+:::
+::: {.column}
+![Example Page From a Source Article](/assets//images/swinno-example-1.jpg)
+:::
+::: 
+
+
+# Quantifying Directionality and Innovation Output {.inverted}
+
+
+## RQ {.center}
+
+[1.]{.text-gray-600} [How many innovations are commercialized in this new economy]{.text-royal-blue-600}, especially considering the central role of innovation in bioeconomy discourse?
+
+[2.]{.text-gray-600} What does commercialized innovation suggest for the [positive directionality of the bioeconomy transition]{.text-royal-blue-600}?
+
+## Data -- Defining the Bioeconomy {.smaller}
+
+
+::: {.columns}
+::: {.column}
+|SNI Code | Description                            |
+|--------:|:---------------------------------------|
+|02       | Forestry and related services
+|20       | Wood and wood product manufacturing except furniture
+|21       | Pulp, paper and paper product manufacturing
+|36       | Furniture manufacturing; other manufacturing
+:Key Sectors Used in Query {#tbl-query}
+
+:::
+::: {.column}
+| Swedish           | English                    |
+|-------------------|----------------------------|
+| virke             | timber                     |
+| cellulos          | cellulose                  |
+| lignin            | lignin                     |
+| spån              | chip                       |
+| bark              | bark                       |
+| levulinsyra       | levulinic acid             |
+| furfural          | furfural                   |
+| svarttjära        | black tar                  |
+| svartlut          | black liquor               |
+| växtbas           | plant-based                |
+| ved               | wood                       |
+| trä               | timber                     |
+| skog              | forest                     |
+| biobränsle        | biofuel                    |
+| biologiskt        | biological                 |
+| nedbrytbar        | biodegradable              |
+| papper            | paper                      |
+| karton            | carton                     |
+| lyocell            | lyocell |
+: Swedish Keywords used in Query: `WHERE description LIKE %keyword% OR ...` {#tbl-keywords}
+:::
+::: 
+
+## Bioeconomy Innovation Has Declined After 1970s
+
+![a. A total number of innovation registered in SWINNO database. b. Forest-based bioeconomy innovations registered in SWINNO database. c. Percentage of forest based bioeconomy innovations to total innovation registered in SWINNO database. Shown are the 5 year moving averages for each time series.](assets/figures/innovation_trends.svg){#fig-innovation-trends}
+
+## Three Visions for Normative Directionality 
+
+
+::: {.columns}
+::: {.column width="33%"}
+
+### [Bioresource]{.text-batlow-darkgreen}
+
+![](/assets/images/bioresource.svg)
+:::
+::: {.column width="33%"}
+
+### [Biotechnology]{.text-batlow-forestgreen}
+
+![](/assets/images/biotechnology.svg)
+
+
+:::
+::: {.column width="33%"}
+
+### [Bioecology]{.text-batlow-darkblue}
+
+![](/assets/images/bioecology.svg)
+
+:::
+::: 
+
+Classification based on @bugge2016WhatBioeconomyReview and @vivien2019HijackingBioeconomy
+
+## Vision Aligned Innovation Were More Often Eco-Innovation 
+
+::: {.columns}
+::: {.column .small }
+
+<table class="small">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: right;">Non-Eco-Innovation</th>
+<th style="text-align: right;">Eco-Innovation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Bioeconomy Vision</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">214</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Vision Neutral</td>
+<td style="text-align: right;">136</td>
+<td style="text-align: right;">132</td>
+</tr>
+</tbody>
+</table>
+
+$\chi^2 =63.579$, df = 1, p < 0.05.
+
+:::
+::: {.column}
+![Count of Eco-Innovation Types by Bioeconomy Vision](/assets/figures/fig-eco-innovation-bioeconomy-vision-output-1.png){#fig-eco-innovations}
+:::
+:::
+
+## Bioresource Was Biggest Vision Category
+
+But most innovations did not align with any vision
+
+![Counts of innovation classification by Bioeconomy Vision Category](/assets/figures/vision_count.svg){#fig-bioeconomy-trends}
+
+## [Bioresource Vision]{.text-batlow-darkgreen} {background-video="/assets/images/harvester.mp4" background-video-loop=true background-video-muted=true background-opacity=0.4}
+
+
+1970-1990:
+
+Intensification of Harvesting
+
+Energy & Chemical Pollution Reduction in Pulp and Paper
+
+. . . 
+
+2000-2021:
+
+New Materials 
+
+## {.center}
+
+::: {.columns}
+::: {.column width="33%"}
+
+### [Bioresource]{.text-batlow-darkgreen}
+
+[1970-1990:]{.text-gray-600}
+
+Intensification of Harvesting
+
+Energy Usage & Chemical Pollution Reduction in Pulp and Paper
+
+[2000-2021:]{.text-gray-600}
+
+New Materials 
+
+:::
+::: {.column width="33%"}
+
+### [Biotechnology]{.text-batlow-forestgreen}
+
+Mostly applications to clean water in pulp and paper
+
+New materials from cellulose
+
+:::
+::: {.column width="33%"}
+
+### [Bioecology]{.text-batlow-darkblue}
+
+74% Recycling related
+
+Decommodification of value chains through regional identity products
+
+:::
+::: 
+
+
+## Result Summary
+
+1. [The bioeconomy is declining]{.text-royal-blue-600} relative to total innovation
+
+2. [Positive directionality towards bioresource vision]{.text-royal-blue-600}, but overlap between visions and open development paths
+
+# Collaboration and Power {.inverted}
+
+## RQ {.center}
+
+[1.]{.text-gray-600} How collaborative is the innovation system ?
+
+[2.]{.text-gray-600}  Which innovation system actors exercise most power?
+
+## Theoretical Framework & Data {#sec-power-data-method}
+
+<style>
+    .tg-0pky.highlight-cell {
+        border: 5px solid #6C9AEE; /* Set the border color for all sides */
+        background-color: hsl(221, 78%, 93%); /* Optional: Add a background color for better highlighting */
+    }
+</style>
+<table class="">
+    <caption>Typology of Power Relations [@avelino2011PowerTransitionEmpowering 75]</caption>
+    <thead>
+        <tr>
+            <th class="tg-0pky">Relation Type</th>
+            <th class="tg-0pky" colspan="3">Manifestation of Power Relations</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="tg-0pky">More / Less Power<br></td>
+            <td class="tg-0pky highlight-cell"><b>Cooperation</b><br>A exercises more power than B, but collective goals<br></td>
+            <td class="tg-0pky"><b>Competition</b><br>A exercises more power than B, but mutually exclusive goals<br></td>
+            <td class="tg-0pky"><b>Co-existence</b><br>A exercises more power than B, independent co-existent goals<br></td>
+        </tr>
+        <tr>
+            <td class="tg-0pky"></td>
+            <td class="tg-0pky"></td>
+            <td class="tg-0pky"></td>
+            <td class="tg-0pky"></td>
+        </tr>
+    </tbody>
+</table>
+
+[ [@avelino2011DynamicConceptualizationPower;@avelino2009PowerTransitionInterdisciplinary] ]{.slide-cite}
+
+. . .
+
+Collaborations identified through SWINNO.
+Firm aggregation a challenge [[disaggregated]{.button}](#sec-appendix-collaboration-power)
+
+## Bioeconomy Innovation Producer Network Summary 
+
+:::{.center}
+<table class="center">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Network</th>
+<th style="text-align: right;">Nodes</th>
+<th style="text-align: right;">Links</th>
+<th style="text-align: right;">Average Degree</th>
+<th style="text-align: right;">Density</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1970-1983</td>
+<td style="text-align: right;">87</td>
+<td style="text-align: right;">64</td>
+<td style="text-align: right;">1.47</td>
+<td style="text-align: right;">0.02</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1984-1990</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">1.54</td>
+<td style="text-align: right;">0.03</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">1991-2008</td>
+<td style="text-align: right;">78</td>
+<td style="text-align: right;">65</td>
+<td style="text-align: right;">1.67</td>
+<td style="text-align: right;">0.02</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2009-2021</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">1.54</td>
+<td style="text-align: right;">0.05</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Total</td>
+<td style="text-align: right;">231</td>
+<td style="text-align: right;">196</td>
+<td style="text-align: right;">1.70</td>
+<td style="text-align: right;">0.01</td>
+</tr>
+</tbody>
+</table>
+
+:::
+
+## Output and Innovation Producers Declined
+
+![Plot of Nodes, Average Degree and Innovation Output Over Time for Bioeconomy Innovations and SWINNO Innovations.](/assets/figures/fig-dynamic-network-statistics-common-output-1.png){#fig-dynamic-network-statistics}
+
+## The Innovation Producer Network Was Highly Fragmented {#sec-bioeconomy-network}
+
+![Network of bioeconomy collaboration over time. Gray circles indicate final network.](/assets/figures/taalbi_network_plot.svg){#fig-network}
+
+## Most Powerful Bioeconomy Innovation Producers Included Sweden's Biggest Companies
+Which are more active producing innovation for non-bioeconomy purposes
+
+![Innovation Experience of 10 Most Connected Actors.](/assets/figures/taalbi_top_experience.svg){#fig-top-experience}
+
+
+## Result Summary
+
+3. Bioeconomy innovation producer [network highly fragmented and shrinking after 1980]{.text-royal-blue-600}
+
+4. [Most powerful innovation producers]{.text-royal-blue-600} more active [outside bioeconomy]{.text-royal-blue-600}
+
+
+# Thesis Outline {.inverted}
+
+![](/assets/images/thesis-context.svg){fig-align="center"}
+
+# Take Aways
+
+1. [The bioeconomy is declining]{.text-royal-blue-600} relative to total innovation
+
+2. [Positive directionality towards bioresource vision]{.text-royal-blue-600}, but overlap between visions and open development paths
+
+3. Bioeconomy innovation producer [network highly fragmented and shrinking after 1980]{.text-royal-blue-600}
+
+4. [Most powerful innovation producers]{.text-royal-blue-600} more active [outside bioeconomy]{.text-royal-blue-600}
+
+# References
+
+::: {#refs}
+:::
+
+# Appendices {#sec-appendix}
+
+## Appendix Collaboration and Power {#sec-appendix-collaboration-power}
+
+
+---
+
+### Bioeconomy Degree Distribution
+
+![Degree Distribution of Bioeconomy Collaborations Over the Total Period (1970 - 2015)](assets/figures/fig-bioeconomy-degree-distribution-output-1.png){#fig-bioeconomy-degree-distribution}
+[[Bioeconomy network]{.button}](#sec-bioeconomy-network)
+
+---
+
+### Embedded Network {#sec-embedded-network}
+
+![Network of all innovation in database. For better clarity, only nodes with more than 1 collaboration are shown. Sizes of individual nodes correspond with cumulated total innovation. Fill color shows a company's share of innovation within the bioeconomy compared to its total innovation in SWINNO data. Collaborations resulting in a bioeconomy innovation are highlighted in color.](assets/figures/embedded_bioeconomy_network_plot.svg){#fig-embedded-network}
+
+[[Bioeconomy network]{.button}](#sec-bioeconomy-network)
+
+---
+
+### The 10 Most Connected Nodes -- Disaggregated
+
+<table class="">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Network</th>
+<th style="text-align: right;">Nodes</th>
+<th style="text-align: right;">Links</th>
+<th style="text-align: right;">Average Degree</th>
+<th style="text-align: right;">Density</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1970-1983</td>
+<td style="text-align: right;">94</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">1.60</td>
+<td style="text-align: right;">0.02</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1984-1990</td>
+<td style="text-align: right;">63</td>
+<td style="text-align: right;">68</td>
+<td style="text-align: right;">2.16</td>
+<td style="text-align: right;">0.03</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">1991-2008</td>
+<td style="text-align: right;">97</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">2.06</td>
+<td style="text-align: right;">0.02</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2009-2021</td>
+<td style="text-align: right;">85</td>
+<td style="text-align: right;">116</td>
+<td style="text-align: right;">2.73</td>
+<td style="text-align: right;">0.03</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Total</td>
+<td style="text-align: right;">318</td>
+<td style="text-align: right;">359</td>
+<td style="text-align: right;">2.26</td>
+<td style="text-align: right;">0.01</td>
+</tr>
+</tbody>
+</table>
+
+
+## Output and Innovation Producers Declined -- Disaggregated
+
+![Plot of Nodes, Average Degree and Innovation Output Over Time for Bioeconomy Innovations and SWINNO Innovations.](/assets/figures/fig-dynamic-network-statistics-common-output-1.png){#fig-dynamic-network-statistics-common}
+
+## Bioeconomy Network -- Disaggregated
+
+![Network of bioeconomy collaboration over time. Gray circles indicate final network.](/assets/figures/common_network_plot.svg){#fig-network}
+
+--- 
+
+### Embedded Network -- Disaggregated
+
+![Network of all innovation in database. For better clarity, only nodes with more than 1 collaboration are shown. Sizes of individual nodes correspond with cumulated total innovation. Fill color shows a company's share of innovation within the bioeconomy compared to its total innovation in SWINNO data. Collaborations resulting in a bioeconomy innovation are highlighted in color.](assets/figures/common_embedded_bioeconomy_network_plot.svg){#fig-embedded-network-common}
+
+---
+
+### Most Powerful Nodes -- Disaggregated
+
+![Innovation Experience of 10 Most Connected Actors.](/assets/figures/common_top_experience.svg){#fig-top-experience-common}
