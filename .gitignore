@@ -173,4 +173,4 @@ paper_files/
 *.aux
 notebooks/*_files/
 
-*.mp4
+/.quarto/
