@@ -5,8 +5,7 @@ date: last-modified
 bibliography: papers.bib
 csl: 'https://zotero.org/styles/apa?source=1'
 format: 
-    pjk_theme-revealjs:
-        embed-resources: true
+    pjk_theme-revealjs
 ---
 
 ## Background {.center}
