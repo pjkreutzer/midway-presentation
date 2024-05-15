@@ -1,10 +1,12 @@
 ---
 title: Sweden’s Transition to a Forest-Based Bioeconomy
-format: pjk_theme-revealjs
 author: Philipp Jonas Kreutzer
 date: last-modified
 bibliography: papers.bib
 csl: 'https://zotero.org/styles/apa?source=1'
+format: 
+    pjk_theme-revealjs:
+        embed-resources: true
 ---
 
 ## Background {.center}
@@ -30,7 +32,7 @@ from 15 independent trade journals [@sjoo2014DatabaseSwedishInnovations]
 
 :::
 ::: {.column}
-![Example Page From a Source Article](/assets//images/swinno-example-1.jpg)
+![Example Page From a Source Article](/assets/images/swinno-example-1.jpg)
 :::
 ::: 
 
