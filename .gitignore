@@ -166,8 +166,6 @@ cython_debug/
 reveal_template_files/
 ### Quarto ###
 paper_files/
-*.html
-!_power-table.hmtl
 *.pdf
 *.tex
 *.aux
